@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms</title>
+  <style>
+    .z {
+       background-color: rgb(150, 144, 238);
+      font-size: medium;
+      font-size: larger;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit; 
+  color: whitesmoke;
+}
+#pad{
+  padding: 5px 20px 20px 90px;
+ 
+}
+  </style> 
+</head>
+<body style="color: white;">
+  <form >
+    <h1 style="color: rgb(44, 44, 187);" >  <u>STUDENT REGISTRATION FORM </u> </h1>
+      <table class="z">
+        <tr>
+          <td> Name:
+          </td>
+          <td><input type="text" name="name" class="inp" placeholder="Enter Name Here">
+          </td>
+
+        <tr>
+          <td>Last Name </td>
+          <td> <input type=" last name" class="inp" placeholder=" Enter father Name" size="20
+        >
+              </td>
+            </tr>
+            <tr>
+              <td> DATE OF BIRTH </td>
+              <td> <input type=" Dath of birth" class="inp" placeholder=" Date of birth * (dd-mm-yy)">
+          </td>
+        </tr>
+        <tr>
+        <tr>
+          <td> Adress </td>
+          <td> <textarea placeholder="Enter Your Adress" class="inp" cols="40" rows="5"></textarea>
+          </td>
+        </tr>
+
+
+        <td>Gender </td>
+        <td> <input type="radio" name="gender" class="inp" checked>Male
+          <input type="radio" name="gender"> Female
+        </td>
+        </tr>
+        <tr>
+          <td> Nationity : </td>
+          <td> <input type="Nat" placeholder=" Nationality " class="inp">
+
+          </td>
+        </tr>
+        <tr>
+          <td> Type Account : </td>
+          <td> <input type="radio" name="account" class="inp" checked>Fixed
+            <input type="radio" name="account" placeholder="Account" class="inp">Deposit
+          </td>
+        </tr>
+        <tr>
+          <td>Prefrences </td>
+          <td>
+            <input type="checkbox" name="Prefrences" value="Int" class="inp" class="inp" checked> Internet Banking
+            <input type="checkbox" name="Prefrences" value="Mob" class="inp"> Mobile Banking
+            <input type="checkbox" name="Prefrences" value="Sms" class="inp"> SMS Alert
+          </td>
+        </tr>
+        <tr>
+          <td> Please select your city: </td>
+          <td> <select name="cities" class="z">
+              <option value=""> Select Cities</option>
+              <option value="khi">karachi</option>
+              <option value="lhr">Faisal Abad</option>
+              <option value="MUL">Multan</option>
+              <option value="fSL" selected> Lahore </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Zip code </td>
+          <td> <input type="code" placeholder="Write Code Number" class="inp"> </td>
+        </tr>
+        <tr>
+          <td> Phone * </td>
+          <td> <input type=" phone" placeholder=" Write phone number" class="inp"> </td>
+        </tr>
+
+        <tr>
+          <td> Email* </td>
+          <td> <input type=" email" placeholder="Type your email" class="inp"> </td>
+        </tr>
+
+        <tr>
+          <td> Password* (6-8 characters) </td>
+          <td> <input type="password" placeholder="Only 6-8 characters" class="inp"> </td>
+        </tr>
+        <tr>
+          <td>Verify Password* </td>
+          <td> <input type="password" placeholder="Confirm yor password" class="inp"> </td>
+        </tr>
+
+        <tr>
+          <td> Qualification </td>
+          <td>
+            <table border="1px">
+              <tr>
+                <td style="border: none;">Sl.No </td>
+                <td align="center" style="border: none;"> Examimination</td>
+                <td align="center" style="border: none;"> Boards</td>
+                <td align="center" style="border: none;"> Percentage</td>
+                <td align="center" style="border: none;">Years of Passing</td>
+              </tr>
+
+              <tr>
+                <td style="border: none;">1 </td>
+                <td style="border: none;"> Class X</td>
+                <td><input type="text" name="Examimination" maxlength="30"> </td>
+                <td><input type="text" name="Boards" maxlength="30"> </td>
+                <td> <input type="text" name="Years of passing" maxlength="30"></td>
+              </tr>
+              <tr>
+                <td style="border: none;">2 </td>
+                <td style="border: none;"> Class X11</td>
+                <td><input type="text" name="Examimination" maxlength="30"> </td>
+                <td><input type="text" name="Boards" maxlength="30"> </td>
+                <td> <input type="text" name="Years of Passing" maxlength="30"></td>
+              </tr>
+              <tr>
+                <td style="border: none;">3 </td>
+                <td style="border: none;"> Graduation</td>
+                <td><input type="text" name="Examimination" maxlength="30"> </td>
+                <td><input type="text" name="Boards" maxlength="30"> </td>
+                <td> <input type="text" name="years of passing" maxlength="30"></td>
+              </tr>
+              <tr>
+                <td style="border: none;">4 </td>
+                <td style="border: none;">Masters</td>
+                <td><input type="text" name="Examimination"> </td>
+                <td><input type="text" name="Boards"> </td>
+                <td> <input type="text" name="years of passing"></td>
+              <tr>
+                <td style="border: none;"></td>
+                <td style="border: none;"></td>
+                <td align="center" style="border: none;"> 10 charac only </td>
+                <td align="center" style="border: none;">12 charac only</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td> COURSES <br /> APPLIED FOR</td>
+          <td> B.CA <input type="radio" checked>
+            B.Com <input type="radio">
+            B.A <input type="radio">
+            B.Se <input type="radio">
+          </td>
+           <tr>
+            <td></td>
+            <td id="pad" >
+             <input type="submit" value="submit"  > 
+             <input type="reset" name="reset" >
+           </td>
+          
+            </tr>
+              </td>
+            </tr>
+
+          </table>
+         
+
+  </form>
+
+</body>
+</html>
